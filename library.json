@@ -18,8 +18,12 @@
   "platforms": ["espressif8266", "espressif32", "libretuya"],
   "dependencies": [
     {
-      "owner": "ottowinter",
       "name": "ESPAsyncTCP-esphome",
+      "repository":
+        {
+          "type": "git",
+          "url": "https://github.com/HeMan/ESPAsyncTCP"
+        }
       "platforms": "espressif8266"
     },
     {
